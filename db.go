@@ -115,6 +115,7 @@ func (db *DB) Del(key []byte) error {
 		ExpiresAt: 0,
 	})
 }
+
 func (db *DB) Set(data *utils.Entry) error {
 	if data == nil || len(data.Key) == 0 {
 		return utils.ErrEmptyKey
