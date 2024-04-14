@@ -23,7 +23,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/utils"
 	"github.com/pkg/errors"
 )
 

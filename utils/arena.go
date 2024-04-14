@@ -50,6 +50,7 @@ func newArena(n int64) *Arena {
 	out := &Arena{
 		n:   1,
 		buf: make([]byte, n),
+		shouldGrow: true,
 	}
 	return out
 }

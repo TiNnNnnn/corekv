@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/utils"
 )
 
 var (

@@ -27,8 +27,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hardcore-os/corekv/pb"
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/pb"
+	"corekv/utils"
 )
 
 // 归并优先级

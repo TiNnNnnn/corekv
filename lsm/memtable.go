@@ -25,8 +25,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/hardcore-os/corekv/file"
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/file"
+	"corekv/utils"
+
 	"github.com/pkg/errors"
 )
 
@@ -39,6 +40,7 @@ type memTable struct {
 	sl         *utils.Skiplist
 	buf        *bytes.Buffer
 	maxVersion uint64
+	closer     utils.Closer
 }
 
 // NewMemtable _

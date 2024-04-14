@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/utils"
 	"github.com/stretchr/testify/require"
 )
 

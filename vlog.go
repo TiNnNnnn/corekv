@@ -32,8 +32,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hardcore-os/corekv/file"
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/file"
+	"corekv/utils"
 	"github.com/pkg/errors"
 )
 

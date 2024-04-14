@@ -1,7 +1,7 @@
 package lsm
 
 import (
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/utils"
 )
 
 // LSM _

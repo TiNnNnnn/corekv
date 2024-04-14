@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hardcore-os/corekv/pb"
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/pb"
+	"corekv/utils"
 	"github.com/pkg/errors"
 )
 

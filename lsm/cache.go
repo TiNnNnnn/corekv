@@ -15,7 +15,7 @@
 package lsm
 
 import (
-	coreCache "github.com/hardcore-os/corekv/utils/cache"
+	coreCache "corekv/utils/cache"
 )
 
 type cache struct {

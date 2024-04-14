@@ -11,7 +11,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/utils"
 	"github.com/pkg/errors"
 )
 

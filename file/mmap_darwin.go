@@ -24,7 +24,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hardcore-os/corekv/utils/mmap"
+	"corekv/utils/mmap"
 	"github.com/pkg/errors"
 )
 

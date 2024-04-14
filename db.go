@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hardcore-os/corekv/lsm"
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/lsm"
+	"corekv/utils"
 	"github.com/pkg/errors"
 )
 

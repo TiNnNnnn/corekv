@@ -23,9 +23,9 @@ import (
 	"sort"
 	"unsafe"
 
-	"github.com/hardcore-os/corekv/file"
-	"github.com/hardcore-os/corekv/pb"
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/file"
+	"corekv/pb"
+	"corekv/utils"
 )
 
 type tableBuilder struct {

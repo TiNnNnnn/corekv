@@ -18,8 +18,7 @@ import (
 	"fmt"
 	"testing"
 	"time"
-
-	"github.com/hardcore-os/corekv/utils"
+	"corekv/utils"
 )
 
 func TestAPI(t *testing.T) {
@@ -34,10 +33,10 @@ func TestAPI(t *testing.T) {
 			t.Fatal(err)
 		}
 		// 查询
-		if entry, err := db.Get([]byte(key)); err != nil {
+		if _, err := db.Get([]byte(key)); err != nil {
 			t.Fatal(err)
 		} else {
-			t.Logf("db.Get key=%s, value=%s, expiresAt=%d", entry.Key, entry.Value, entry.ExpiresAt)
+			//t.Logf("db.Get key=%s, value=%s, expiresAt=%d", entry.Key, entry.Value, entry.ExpiresAt)
 		}
 	}
 
@@ -79,5 +78,3 @@ func TestAPI(t *testing.T) {
 		}
 	}
 }
-
-
